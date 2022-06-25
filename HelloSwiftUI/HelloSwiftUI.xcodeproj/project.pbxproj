@@ -15,6 +15,7 @@
 		6BA4A3AA2866DADB003D281D /* HelloSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3A92866DADB003D281D /* HelloSwiftUIUITests.swift */; };
 		6BA4A3AC2866DADB003D281D /* HelloSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3AB2866DADB003D281D /* HelloSwiftUIUITestsLaunchTests.swift */; };
 		6BA4A3B92866DCF1003D281D /* TextBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3B82866DCF1003D281D /* TextBootCamp.swift */; };
+		6BA4A3BB2866E69D003D281D /* ShapeBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3BA2866E69D003D281D /* ShapeBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6BA4A3A92866DADB003D281D /* HelloSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIUITests.swift; sourceTree = "<group>"; };
 		6BA4A3AB2866DADB003D281D /* HelloSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6BA4A3B82866DCF1003D281D /* TextBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootCamp.swift; sourceTree = "<group>"; };
+		6BA4A3BA2866E69D003D281D /* ShapeBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				6BA4A3922866DADB003D281D /* Assets.xcassets */,
 				6BA4A3942866DADB003D281D /* Preview Content */,
 				6BA4A3B82866DCF1003D281D /* TextBootCamp.swift */,
+				6BA4A3BA2866E69D003D281D /* ShapeBootCamp.swift */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA4A3BB2866E69D003D281D /* ShapeBootCamp.swift in Sources */,
 				6BA4A3912866DADA003D281D /* ContentView.swift in Sources */,
 				6BA4A38F2866DADA003D281D /* HelloSwiftUIApp.swift in Sources */,
 				6BA4A3B92866DCF1003D281D /* TextBootCamp.swift in Sources */,
