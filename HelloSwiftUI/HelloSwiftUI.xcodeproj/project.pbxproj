@@ -21,6 +21,7 @@
 		6BA4A3C12866FCD7003D281D /* FrameBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3C02866FCD7003D281D /* FrameBootCamp.swift */; };
 		6BA4A3C3286706B7003D281D /* BackgroundOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3C2286706B7003D281D /* BackgroundOverlay.swift */; };
 		6BA4A3C528671F80003D281D /* StacKBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3C428671F80003D281D /* StacKBootCamp.swift */; };
+		6BA4A3C7286727A8003D281D /* PaddingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3C6286727A8003D281D /* PaddingBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		6BA4A3C02866FCD7003D281D /* FrameBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootCamp.swift; sourceTree = "<group>"; };
 		6BA4A3C2286706B7003D281D /* BackgroundOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlay.swift; sourceTree = "<group>"; };
 		6BA4A3C428671F80003D281D /* StacKBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacKBootCamp.swift; sourceTree = "<group>"; };
+		6BA4A3C6286727A8003D281D /* PaddingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				6BA4A3C02866FCD7003D281D /* FrameBootCamp.swift */,
 				6BA4A3C2286706B7003D281D /* BackgroundOverlay.swift */,
 				6BA4A3C428671F80003D281D /* StacKBootCamp.swift */,
+				6BA4A3C6286727A8003D281D /* PaddingBootCamp.swift */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA4A3C7286727A8003D281D /* PaddingBootCamp.swift in Sources */,
 				6BA4A3BF2866F3C1003D281D /* ImageBootCamp.swift in Sources */,
 				6BA4A3C12866FCD7003D281D /* FrameBootCamp.swift in Sources */,
 				6BA4A3BB2866E69D003D281D /* ShapeBootCamp.swift in Sources */,
