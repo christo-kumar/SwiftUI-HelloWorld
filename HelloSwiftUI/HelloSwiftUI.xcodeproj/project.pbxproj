@@ -29,6 +29,7 @@
 		6BA4A3D12869C4E5003D281D /* GridsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D02869C4E5003D281D /* GridsBootCamp.swift */; };
 		6BA4A3D32869DD1A003D281D /* SafeAreaBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D22869DD1A003D281D /* SafeAreaBootCamp.swift */; };
 		6BA4A3D52869E4CC003D281D /* ButtonBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D42869E4CC003D281D /* ButtonBootCamp.swift */; };
+		6BA4A3D72869FB67003D281D /* StateBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D62869FB67003D281D /* StateBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		6BA4A3D02869C4E5003D281D /* GridsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsBootCamp.swift; sourceTree = "<group>"; };
 		6BA4A3D22869DD1A003D281D /* SafeAreaBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootCamp.swift; sourceTree = "<group>"; };
 		6BA4A3D42869E4CC003D281D /* ButtonBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootCamp.swift; sourceTree = "<group>"; };
+		6BA4A3D62869FB67003D281D /* StateBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				6BA4A3CA28699C27003D281D /* InitializerBootCamp.swift */,
 				6BA4A3D22869DD1A003D281D /* SafeAreaBootCamp.swift */,
 				6BA4A3D42869E4CC003D281D /* ButtonBootCamp.swift */,
+				6BA4A3D62869FB67003D281D /* StateBootCamp.swift */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				6BA4A3C7286727A8003D281D /* PaddingBootCamp.swift in Sources */,
 				6BA4A3CD2869A846003D281D /* LoopBootCamp.swift in Sources */,
 				6BA4A3BF2866F3C1003D281D /* ImageBootCamp.swift in Sources */,
+				6BA4A3D72869FB67003D281D /* StateBootCamp.swift in Sources */,
 				6BA4A3C12866FCD7003D281D /* FrameBootCamp.swift in Sources */,
 				6BA4A3CF2869BB31003D281D /* ScrollViewBootCamp.swift in Sources */,
 				6BA4A3D12869C4E5003D281D /* GridsBootCamp.swift in Sources */,
