@@ -100,9 +100,6 @@
 		6BA4A3822866DADA003D281D = {
 			isa = PBXGroup;
 			children = (
-				6BA4A3D02869C4E5003D281D /* GridsBootCamp.swift */,
-				6BA4A3CE2869BB31003D281D /* ScrollViewBootCamp.swift */,
-				6BA4A3CC2869A846003D281D /* LoopBootCamp.swift */,
 				6BA4A38D2866DADA003D281D /* HelloSwiftUI */,
 				6BA4A39E2866DADB003D281D /* HelloSwiftUITests */,
 				6BA4A3A82866DADB003D281D /* HelloSwiftUIUITests */,
@@ -123,6 +120,9 @@
 		6BA4A38D2866DADA003D281D /* HelloSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6BA4A3D02869C4E5003D281D /* GridsBootCamp.swift */,
+				6BA4A3CE2869BB31003D281D /* ScrollViewBootCamp.swift */,
+				6BA4A3CC2869A846003D281D /* LoopBootCamp.swift */,
 				6BA4A38E2866DADA003D281D /* HelloSwiftUIApp.swift */,
 				6BA4A3902866DADA003D281D /* ContentView.swift */,
 				6BA4A3922866DADB003D281D /* Assets.xcassets */,
