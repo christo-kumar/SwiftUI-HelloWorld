@@ -11,36 +11,47 @@ struct StateBootCamp: View {
     @State var bgColor: Color = Color.green
     @State var clickCount: Int = 0
     
+    var buttonLayout1: some View {
+        Text("Red")
+            .font(.headline)
+            .fontWeight(.bold)
+            .frame(width: 80, height: 50)
+            .background(Color.blue)
+            .cornerRadius(8)
+            .padding()
+            .foregroundColor(.white)
+    }
+    
+    var buttonLayout2: some View {
+        Text("Red")
+            .font(.headline)
+            .fontWeight(.bold)
+            .frame(width: 80, height: 50)
+            .background(Color.blue)
+            .cornerRadius(8)
+            .padding()
+            .foregroundColor(.white)
+    }
+    
+    func buttonAction(param: Color) {
+        bgColor = param
+        clickCount += 1
+    }
+    
     var contentLayer: some View {
         VStack {
             Text("Click Count: \(clickCount)")
                 .font(.largeTitle)
             HStack {
                 Button {
-                    bgColor = Color.red
-                    clickCount += 1
+                    buttonAction(param: Color.green)
                 } label: {
-                    Text("Red")
-                        .font(.headline)
-                        .fontWeight(.bold)
-                        .frame(width: 80, height: 50)
-                        .background(Color.blue)
-                        .cornerRadius(8)
-                        .padding()
-                        .foregroundColor(.white)
+                    buttonLayout1
                 }
                 Button {
-                    bgColor = Color.green
-                    clickCount += 1
+                    buttonAction(param: Color.red)
                 } label: {
-                    Text("Green")
-                        .font(.headline)
-                        .fontWeight(.bold)
-                        .frame(width: 80, height: 50)
-                        .background(Color.blue)
-                        .cornerRadius(8)
-                        .padding()
-                        .foregroundColor(.white)
+                    buttonLayout2
                 }
             }
         }
