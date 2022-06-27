@@ -11,9 +11,7 @@ struct StateBootCamp: View {
     @State var bgColor: Color = Color.green
     @State var clickCount: Int = 0
     
-    var body: some View {
-        ZStack {
-            bgColor.edgesIgnoringSafeArea(.all)
+    var contentLayer: some View {
         VStack {
             Text("Click Count: \(clickCount)")
                 .font(.largeTitle)
@@ -47,7 +45,13 @@ struct StateBootCamp: View {
             }
         }
     }
- }
+    
+    var body: some View {
+        ZStack {
+            bgColor.edgesIgnoringSafeArea(.all)
+            contentLayer
+        }
+    }
 }
 
 struct StateBootCamp_Previews: PreviewProvider {
