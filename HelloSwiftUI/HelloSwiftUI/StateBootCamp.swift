@@ -11,28 +11,6 @@ struct StateBootCamp: View {
     @State var bgColor: Color = Color.green
     @State var clickCount: Int = 0
     
-    var buttonLayout1: some View {
-        Text("Red")
-            .font(.headline)
-            .fontWeight(.bold)
-            .frame(width: 80, height: 50)
-            .background(Color.blue)
-            .cornerRadius(8)
-            .padding()
-            .foregroundColor(.white)
-    }
-    
-    var buttonLayout2: some View {
-        Text("Red")
-            .font(.headline)
-            .fontWeight(.bold)
-            .frame(width: 80, height: 50)
-            .background(Color.blue)
-            .cornerRadius(8)
-            .padding()
-            .foregroundColor(.white)
-    }
-    
     func buttonAction(param: Color) {
         bgColor = param
         clickCount += 1
@@ -46,12 +24,12 @@ struct StateBootCamp: View {
                 Button {
                     buttonAction(param: Color.green)
                 } label: {
-                    buttonLayout1
+                    ButtonView(title: "green", color: Color.green)
                 }
                 Button {
                     buttonAction(param: Color.red)
                 } label: {
-                    buttonLayout2
+                    ButtonView(title: "red", color: Color.red)
                 }
             }
         }
@@ -68,5 +46,20 @@ struct StateBootCamp: View {
 struct StateBootCamp_Previews: PreviewProvider {
     static var previews: some View {
         StateBootCamp()
+    }
+}
+
+struct ButtonView: View {
+    let title: String
+    let color: Color
+    var body: some View {
+        Text(title)
+            .font(.headline)
+            .fontWeight(.bold)
+            .frame(width: 80, height: 50)
+            .background(Color.blue)
+            .cornerRadius(8)
+            .padding()
+            .foregroundColor(.white)
     }
 }
