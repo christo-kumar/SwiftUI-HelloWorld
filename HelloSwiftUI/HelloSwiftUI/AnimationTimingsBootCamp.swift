@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AnimationTimingsBootCamp: View {
     @State var isAnimating = false
+    let duration = 5.0
     var body: some View {
         VStack {
             Button {
@@ -20,12 +21,12 @@ struct AnimationTimingsBootCamp: View {
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.green)
                 .frame(width: isAnimating ? 350: 50, height: 100 )
-                .animation(.linear, value: isAnimating)
+                .animation(.linear(duration: duration), value: isAnimating)
             
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.red)
                 .frame(width: isAnimating ? 350: 50, height: 100 )
-                .animation(Animation.easeIn, value: isAnimating)
+                .animation(Animation.easeIn(duration: duration), value: isAnimating)
             
             RoundedRectangle(cornerRadius: 25)
                 .fill(Color.yellow)
