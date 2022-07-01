@@ -9,16 +9,16 @@ import SwiftUI
 
 struct IconBootCamp: View {
     var body: some View {
-        VStack {
-        Image(systemName: "heart.fill")
-            //.foregroundColor(Color(#colorLiteral(red:0.9, green: 0.4, blue: 0.7, alpha:1.0)))
-            .foregroundColor(.green)
-        //.resizable
-        //.aspectRatio(contentMode: .fill)
-            .font(.system(size: 50))
-            .frame(width: 200, height: 200, alignment: .center)
+        ZStack {
             IconPractice()
-    }
+            Image(systemName: "heart.fill")
+            //.foregroundColor(Color(#colorLiteral(red:0.9, green: 0.4, blue: 0.7, alpha:1.0)))
+                .foregroundColor(.red)
+            //.resizable
+            //.aspectRatio(contentMode: .fill)
+                .font(.system(size: 50))
+                .frame(width: 85, height: 155, alignment: .bottomTrailing)
+        }
     }
 }
 
@@ -37,6 +37,5 @@ struct IconPractice: View {
             .frame(width: 200, height: 200, alignment: .center)
             .foregroundColor(Color(#colorLiteral(red: 0.01680417731, green: 0.1983509958, blue: 1, alpha: 1)))
             .background(Color.gray)
-            
     }
 }
