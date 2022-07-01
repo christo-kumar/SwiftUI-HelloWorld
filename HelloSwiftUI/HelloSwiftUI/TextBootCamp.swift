@@ -39,12 +39,15 @@ struct TextBootCamp_Previews: PreviewProvider {
 //font, underline offset foreground-color frame background-color
 struct TextPractice: View {
     var body: some View {
-        Text("Practice")
+        Text("Practice here  I am this now here on earth I rather be here we are just me and your.")
             .font(.system(size: 24, weight: .semibold, design: .serif))
             .underline(true, color: .red)
             .baselineOffset(10)
             .foregroundColor(.green)
-            .frame(width: 100, height: 100, alignment: .center)
+            //.frame(width: 100, height: 100, alignment: .center)
+            //.frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity, alignment: .leading)
             .background(Color.brown)
+            .multilineTextAlignment(.leading)
+            .padding()
     }
 }
