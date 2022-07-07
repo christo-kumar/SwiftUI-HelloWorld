@@ -15,9 +15,19 @@ struct ColorBootCamp: View {
             )
             .frame(width: 300, height: 300)
             .shadow(color: Color(#colorLiteral(red: 0.7540688515, green: 0.7540867925, blue: 0.7540771365, alpha: 1)), radius: 1, x: 0, y: 10)*/
-        RoundedRectangle(cornerRadius: 25)
-            .fill(Color("Custo"))
-            .frame(width: 300, height: 300)
+        VStack{
+            RoundedRectangle(cornerRadius: 25)
+                .fill(Color("Custo"))
+                .frame(width: 300, height: 300)
+                
+                .frame(width: 300, height: 300)
+            
+            Circle()
+                .fill(Color(#colorLiteral(red: 0.5808190107, green: 0.0884276256, blue: 0.3186392188, alpha: 1)))
+                .frame(width: 300, height: 300)
+            
+        }
+       
             
     }
 }

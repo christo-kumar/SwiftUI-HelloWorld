@@ -9,7 +9,7 @@ import SwiftUI
 
 struct PaddingBootCamp: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack() {
             VStack (alignment: .leading){
                 Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                     .font(.largeTitle)
@@ -24,12 +24,10 @@ struct PaddingBootCamp: View {
         }.padding()
             .background(
                 Color.white
-                    .cornerRadius(10)
-                    .shadow(color: Color.black.opacity(0.3),
-                            radius: 10,
-                            x: 0,
-                            y: 10)
+                    .cornerRadius(5)
+                    .shadow(color: .gray.opacity(0.5), radius: 10, x: 0, y: 10)
             )
+            
     }
 }
 

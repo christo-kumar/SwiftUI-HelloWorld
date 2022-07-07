@@ -22,7 +22,20 @@ struct GridsBootCamp: View {
                        pinnedViews: [.sectionHeaders]) {
                 Section {
                     ForEach(0..<50) { index in
-                        Rectangle().frame( height: 65)
+                        VStack{
+                            VStack(alignment: .leading) {
+                                Text("Hello")
+                                HStack{
+                                    Text("Christo")
+                                    Spacer()
+                                }
+                            }
+                            
+                        }.padding()
+                        .background(
+                            Color.blue
+                                .cornerRadius(5.0)
+                        )
                     }
                 } header: {
                     Text("Section-1")

@@ -24,7 +24,14 @@ struct StateBootCamp: View {
                 Button {
                     buttonAction(param: Color.green)
                 } label: {
-                    ButtonView(title: "green", color: Color.green)
+                    Text("green")
+                        .font(.headline)
+                        .fontWeight(.bold)
+                        .frame(width: 80, height: 50)
+                        .background(Color.blue)
+                        .cornerRadius(8)
+                        .padding()
+                        .foregroundColor(.white)
                 }
                 Button {
                     buttonAction(param: Color.red)
