@@ -37,6 +37,8 @@
 		6BA4A3D52869E4CC003D281D /* ButtonBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D42869E4CC003D281D /* ButtonBootCamp.swift */; };
 		6BA4A3D72869FB67003D281D /* StateBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D62869FB67003D281D /* StateBootCamp.swift */; };
 		6BA4A3D9286A1CA4003D281D /* BindingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4A3D8286A1CA4003D281D /* BindingBootCamp.swift */; };
+		6BDBB29E287D8D2D0042F3F5 /* MyCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB29D287D8D2D0042F3F5 /* MyCar.swift */; };
+		6BDBB2A0287EE4FA0042F3F5 /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDBB29F287EE4FA0042F3F5 /* ImageDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		6BA4A3D42869E4CC003D281D /* ButtonBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootCamp.swift; sourceTree = "<group>"; };
 		6BA4A3D62869FB67003D281D /* StateBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootCamp.swift; sourceTree = "<group>"; };
 		6BA4A3D8286A1CA4003D281D /* BindingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootCamp.swift; sourceTree = "<group>"; };
+		6BDBB29D287D8D2D0042F3F5 /* MyCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCar.swift; sourceTree = "<group>"; };
+		6BDBB29F287EE4FA0042F3F5 /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				6B867F2C286AA1CF005C90EA /* TransitionBootCamp.swift */,
 				6B57B942286BDA730021F707 /* TabBarBootCamp.swift */,
 				6B57B944286BE09E0021F707 /* NavigationBootCamp.swift */,
+				6BDBB29D287D8D2D0042F3F5 /* MyCar.swift */,
+				6BDBB29F287EE4FA0042F3F5 /* ImageDemo.swift */,
 			);
 			path = HelloSwiftUI;
 			sourceTree = "<group>";
@@ -334,12 +340,14 @@
 				6BA4A3BF2866F3C1003D281D /* ImageBootCamp.swift in Sources */,
 				6BA4A3D72869FB67003D281D /* StateBootCamp.swift in Sources */,
 				6BA4A3C12866FCD7003D281D /* FrameBootCamp.swift in Sources */,
+				6BDBB2A0287EE4FA0042F3F5 /* ImageDemo.swift in Sources */,
 				6B867F29286A927B005C90EA /* AnimationBootCamp.swift in Sources */,
 				6B57B945286BE09E0021F707 /* NavigationBootCamp.swift in Sources */,
 				6BA4A3CF2869BB31003D281D /* ScrollViewBootCamp.swift in Sources */,
 				6BA4A3D12869C4E5003D281D /* GridsBootCamp.swift in Sources */,
 				6BA4A3BB2866E69D003D281D /* ShapeBootCamp.swift in Sources */,
 				6B57B943286BDA730021F707 /* TabBarBootCamp.swift in Sources */,
+				6BDBB29E287D8D2D0042F3F5 /* MyCar.swift in Sources */,
 				6B867F2D286AA1CF005C90EA /* TransitionBootCamp.swift in Sources */,
 				6BA4A3912866DADA003D281D /* ContentView.swift in Sources */,
 				6B867F2B286A9773005C90EA /* AnimationTimingsBootCamp.swift in Sources */,
